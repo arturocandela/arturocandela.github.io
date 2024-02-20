@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+:root {
+    --main-color: #16b93a;
+}
+
+header, section, footer {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 960px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+h2 {
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+}
